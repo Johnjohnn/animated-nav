@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #eafbff;
+  background-color: #eafbff;  /*this will give you the split color*/
   background-image: linear-gradient(
     to bottom,
     #eafbff 0%,
@@ -21,7 +21,7 @@ body {
   margin: 0;
 }
 
-nav {
+nav {/*when is not active*/
   background-color: #fff;
   padding: 20px;
   width: 80px;
@@ -34,7 +34,7 @@ nav {
   overflow-x: hidden;
 }
 
-nav.active {
+nav.active {/*when is active*/
   width: 350px;
 }
 
